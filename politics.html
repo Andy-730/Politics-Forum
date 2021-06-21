@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!--這是代表html5-->
+<html>
+<head>  <!--head 裡的內容不會顯示在頁面上，它的任務是要說明文件的基本元素(要件)-->
+<meta charset="utf-8">
+
+<title>政戰論壇-Politics Forum</title>  <!--這是用來影響分頁名稱-->
+
+
+<html lang="zh-Hant-TW">
+  <!-- 頁面隨裝置大小改變 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!-- 網站縮圖 -->
+<link rel="shortcut icon" href="img/logol.png">
+
+<link rel="stylesheet" href="politics .css">
+
+<link rel="shortcut icon" href="1.ico"/>
+  <link rel="bookmark" href="1.ico"/>
+
+</head>
+<body>
+
+<header>
+<a href="https://join.gov.tw/" target="_blank" title="公共政策討論平台"><img src="https://imgur.com/5Wzm995.png" alt="政戰論壇" style="width:60px;height:60px;">
+</a>
+</header>
+
+
+<nav>
+   <ul>
+    
+<li class="dropdown" ><a href="#" class="dropbtn">首頁</a>
+      
+      <li class="dropdown" ><a href="#" class="dropbtn">自傳</a>
+        <div class="dropdown-content">
+          </div>
+        <li class="dropdown" ><a href="#" class="dropbtn">政策發想</a>
+          <div class="dropdown-content">
+            <a href="#">提案</a>
+            <a href="#">討論</a>
+            <a href="#">監督</a>
+          </div>
+          <li class="dropdown" ><a href="#" class="dropbtn">留言及建議</a>
+  
+
+ 
+  </ul>
+</nav>
+
+
+<h2>Republic of china</h2>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="img/ROC.png" style="width:70%">
+  <div class="text">Caption One</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="img/ROC(2).png" style="width:70%">
+  <div class="text">Caption Two</div>
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+
+
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a61pB53dPrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script>
+var slideIndex = 0;
+showSlides();
+
+
+
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+<br>
+<h2> </h2>
+<br>
+<div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
